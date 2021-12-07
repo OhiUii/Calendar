@@ -1,0 +1,65 @@
+/*===========================[ X btn ]===========================*/
+/*  By Peter Cameron
+    Reff https://codepen.io/pcameron/pen/qEBrew
+*/
+
+.wrapper {
+	width:80px;
+	height:50px;
+	margin: 0 auto;
+	/*border:1px solid red;*/
+	position: relative;
+}
+
+.wrapper:hover .middle {
+	width:50px;
+	height:50px;
+	top:-3%;
+	left:8%;
+	border-radius: 50%;
+    background-color:white;
+    opacity:0.3;
+}
+
+.wrapper:hover .top {
+    opacity: 1;
+    -webkit-transform:rotate(45deg);
+    top:40%;border-radius:10px;background-color:white;
+    border-color:  white;
+}
+
+.wrapper:hover .bottom{
+    opacity: 1;
+	-webkit-transform:rotate(-45deg);
+    top:40%;border-radius:10px;background-color:white;
+    border-color: white;
+}
+
+.bar {
+	width:40px;
+	height:5px;
+	border:2px solid white;
+	position: absolute;
+    border-radius:10px;
+}
+
+.top {
+	left:15%;
+	top:25%;
+    -webkit-transition:all 0.5s;
+    opacity: 1;
+}
+
+.middle {
+	left:15%;
+	top:50%;
+    -webkit-transition:all 0.5s;
+    opacity: 1;
+}
+
+.bottom {
+	left:15%;
+	top:75%;
+    -webkit-transition:all 0.5s;
+    opacity: 1;
+}

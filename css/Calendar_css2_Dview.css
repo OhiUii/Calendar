@@ -1,0 +1,106 @@
+@font-face {font-family: "inglobal"; src: url("//db.onlinewebfonts.com/t/72b7343abe5be01c2f26ea22583b6e0f.eot"); src: url("//db.onlinewebfonts.com/t/72b7343abe5be01c2f26ea22583b6e0f.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/72b7343abe5be01c2f26ea22583b6e0f.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/72b7343abe5be01c2f26ea22583b6e0f.woff") format("woff"), url("//db.onlinewebfonts.com/t/72b7343abe5be01c2f26ea22583b6e0f.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/72b7343abe5be01c2f26ea22583b6e0f.svg#inglobal") format("svg"); }
+@font-face {font-family: "Liorah BT"; src: url("//db.onlinewebfonts.com/t/70d9cdb6be0e9796bcbeda9ecbaeaf97.eot"); src: url("//db.onlinewebfonts.com/t/70d9cdb6be0e9796bcbeda9ecbaeaf97.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/70d9cdb6be0e9796bcbeda9ecbaeaf97.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/70d9cdb6be0e9796bcbeda9ecbaeaf97.woff") format("woff"), url("//db.onlinewebfonts.com/t/70d9cdb6be0e9796bcbeda9ecbaeaf97.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/70d9cdb6be0e9796bcbeda9ecbaeaf97.svg#Liorah BT") format("svg"); }
+@font-face {font-family: "ITC Edwardian Script"; src: url("//db.onlinewebfonts.com/t/2be69b086861672e6a0ed050ffdd4fe7.eot"); src: url("//db.onlinewebfonts.com/t/2be69b086861672e6a0ed050ffdd4fe7.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/2be69b086861672e6a0ed050ffdd4fe7.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/2be69b086861672e6a0ed050ffdd4fe7.woff") format("woff"), url("//db.onlinewebfonts.com/t/2be69b086861672e6a0ed050ffdd4fe7.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/2be69b086861672e6a0ed050ffdd4fe7.svg#ITC Edwardian Script") format("svg"); }
+@font-face {font-family: "Comfortaa"; src: url("//db.onlinewebfonts.com/t/26b602359fb600f19b7b453635be3b46.eot"); src: url("//db.onlinewebfonts.com/t/26b602359fb600f19b7b453635be3b46.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/26b602359fb600f19b7b453635be3b46.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/26b602359fb600f19b7b453635be3b46.woff") format("woff"), url("//db.onlinewebfonts.com/t/26b602359fb600f19b7b453635be3b46.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/26b602359fb600f19b7b453635be3b46.svg#Comfortaa") format("svg"); }
+@font-face {font-family: "Nunito Light"; src: url("//db.onlinewebfonts.com/t/f520e19281e4912539d5cf95df29e683.eot"); src: url("//db.onlinewebfonts.com/t/f520e19281e4912539d5cf95df29e683.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/f520e19281e4912539d5cf95df29e683.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/f520e19281e4912539d5cf95df29e683.woff") format("woff"), url("//db.onlinewebfonts.com/t/f520e19281e4912539d5cf95df29e683.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/f520e19281e4912539d5cf95df29e683.svg#Nunito Light") format("svg"); }
+@font-face {font-family: "Caveat"; src: url("//db.onlinewebfonts.com/t/cbd1738698b8498615f41a8ec4900172.eot"); src: url("//db.onlinewebfonts.com/t/cbd1738698b8498615f41a8ec4900172.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/cbd1738698b8498615f41a8ec4900172.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/cbd1738698b8498615f41a8ec4900172.woff") format("woff"), url("//db.onlinewebfonts.com/t/cbd1738698b8498615f41a8ec4900172.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/cbd1738698b8498615f41a8ec4900172.svg#Caveat") format("svg"); }
+/*ITC Edwardian Script Comfortaa Caveat Nunito Light*/
+
+.edit_btn{
+  display: inline;
+  z-index: 6;
+  transition: 0.2s;
+}
+
+.edit_btn:hover{
+  opacity: 0.4;
+}
+
+/*=============== Calendar : day ================*/
+.container_date{
+  position: fixed;
+  width: 230px;
+  height: 600px;
+  left: 1256px;
+  bottom: 730px;
+  top: 70px;
+  background:  rgb(255, 255, 255);
+}
+/*====== Date Month =======*/
+/*[D]*/
+.d_bar{
+  width: 100%;
+  position: absolute;
+  top: -57px;
+}
+.show_day{
+  font-family: inglobal;
+  color:  rgb(33, 29, 61);
+  text-align: center;
+  font-size: 220px;
+}
+
+/*[DM]*/
+.dm_bar{
+  font-family: inglobal;
+  width: 100%;
+  height: 39px;
+  padding-top: 5px;
+  position: absolute;
+  border-radius: 50px;
+  top: 185px;
+  background:  rgb(54, 73, 126);
+  
+}
+.con_show_dayNmonth{
+  position: absolute;
+  width: 48%;
+  border-radius: 50px;
+}
+.show_dayNmonth{
+  text-align: center;
+  font-size: 25px;
+}
+
+.show_monthNmonth{
+  text-align: center;
+  font-size: 25px;
+}
+
+/*====== Appointment =======*/
+.a_bar{
+  font-weight: 450;
+  font-family: Nunito Light;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 238px;
+  bottom: 35px;
+  padding-left: 8px;
+  overflow-x: hidden; 
+  overflow-y: scroll;
+}
+.con_appoint{
+}
+
+/*TIME*/
+.d_time{
+  display: inline;
+  width: 140px;
+  font-size: 22px;
+  color: rgb(126, 148, 206);
+}
+
+/*TITLE*/
+.d_title{
+  font-size: 18px;
+  color: rgb(54, 73, 126);
+}
+
+/*Detail*/
+.d_detail{
+  padding-left: 8px;
+  padding-bottom: 8px;
+  font-size: 15px;
+  color: rgb(126, 148, 206);
+}

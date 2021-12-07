@@ -1,0 +1,235 @@
+@font-face {font-family: "Liorah BT"; src: url("//db.onlinewebfonts.com/t/70d9cdb6be0e9796bcbeda9ecbaeaf97.eot"); src: url("//db.onlinewebfonts.com/t/70d9cdb6be0e9796bcbeda9ecbaeaf97.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/70d9cdb6be0e9796bcbeda9ecbaeaf97.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/70d9cdb6be0e9796bcbeda9ecbaeaf97.woff") format("woff"), url("//db.onlinewebfonts.com/t/70d9cdb6be0e9796bcbeda9ecbaeaf97.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/70d9cdb6be0e9796bcbeda9ecbaeaf97.svg#Liorah BT") format("svg"); }
+@font-face {font-family: "ITC Edwardian Script"; src: url("//db.onlinewebfonts.com/t/2be69b086861672e6a0ed050ffdd4fe7.eot"); src: url("//db.onlinewebfonts.com/t/2be69b086861672e6a0ed050ffdd4fe7.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/2be69b086861672e6a0ed050ffdd4fe7.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/2be69b086861672e6a0ed050ffdd4fe7.woff") format("woff"), url("//db.onlinewebfonts.com/t/2be69b086861672e6a0ed050ffdd4fe7.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/2be69b086861672e6a0ed050ffdd4fe7.svg#ITC Edwardian Script") format("svg"); }
+@font-face {font-family: "Comfortaa"; src: url("//db.onlinewebfonts.com/t/26b602359fb600f19b7b453635be3b46.eot"); src: url("//db.onlinewebfonts.com/t/26b602359fb600f19b7b453635be3b46.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/26b602359fb600f19b7b453635be3b46.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/26b602359fb600f19b7b453635be3b46.woff") format("woff"), url("//db.onlinewebfonts.com/t/26b602359fb600f19b7b453635be3b46.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/26b602359fb600f19b7b453635be3b46.svg#Comfortaa") format("svg"); }
+@font-face {font-family: "Nunito Light"; src: url("//db.onlinewebfonts.com/t/f520e19281e4912539d5cf95df29e683.eot"); src: url("//db.onlinewebfonts.com/t/f520e19281e4912539d5cf95df29e683.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/f520e19281e4912539d5cf95df29e683.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/f520e19281e4912539d5cf95df29e683.woff") format("woff"), url("//db.onlinewebfonts.com/t/f520e19281e4912539d5cf95df29e683.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/f520e19281e4912539d5cf95df29e683.svg#Nunito Light") format("svg"); }
+@font-face {font-family: "Caveat"; src: url("//db.onlinewebfonts.com/t/cbd1738698b8498615f41a8ec4900172.eot"); src: url("//db.onlinewebfonts.com/t/cbd1738698b8498615f41a8ec4900172.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/cbd1738698b8498615f41a8ec4900172.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/cbd1738698b8498615f41a8ec4900172.woff") format("woff"), url("//db.onlinewebfonts.com/t/cbd1738698b8498615f41a8ec4900172.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/cbd1738698b8498615f41a8ec4900172.svg#Caveat") format("svg"); }
+/*ITC Edwardian Script Comfortaa Caveat Nunito Light*/
+body{
+  background-image: url("Pic/BG1.png");
+  background-size: 620px ;
+  background-repeat: no-repeat;
+  background-color: #ffffff;
+  height:700px;  
+
+  /* Center and scale the image nicely */
+  background-repeat: no-repeat;
+
+}
+
+/* height:700px; */
+/*--------------[ adding_white ]*/
+.white{
+  position: fixed;
+  top: 0;
+  left: 23.155%;;
+  width: 52.05%;
+  height: 20px;
+  background:  rgb(255, 255, 255);
+}
+
+/*--------------[ view_tab ]*/
+.view{
+  font-family: Caveat;
+  position: fixed;
+  top: 202.8px;
+  left: 1085.5px;
+  padding-bottom: 5px;
+  padding-top: 5.5px;
+  padding-left: 25px;
+  border-top-left-radius: 34px;
+  border-top-right-radius: 34px;
+  background: rgb(33, 29, 61);
+  color: white;
+  z-index: 1;
+  width: 180px;
+  height: 40px;
+  transform: rotate(90deg);
+  font-size: 24px;
+}
+.view:hover{
+  text-shadow: 0 0 14px #ccdbeb;
+}
+
+/*=============== Calendar : month_appoint ================*/
+.m_appo{
+  width: 93px;
+  font-size: 15px;
+  text-align: right;
+  padding-left: 3px;
+  padding-right: 3px;
+  margin-bottom: 2px;
+  background-color: rgba(154, 231, 226, 0.6) ;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+/*=============== Calendar : month ================*/
+/*[ Calendar ]*/
+.container_calendar1{
+  position: relative;
+  margin-left: 22.9%;
+  width: 52.6%;
+  height: 780px;
+  background: white;
+  box-shadow: 12px 0 20px 0 rgba(0, 0, 0, 0.2), -10px 0 20px 0 rgba(79, 79, 79, 0.19);
+  padding: 10px;
+}
+
+/*[ Calendar_grid ]*/
+*, *::before, *::after{
+  box-sizing: border-box;
+}
+
+.container_blue{
+  font-family: Comfortaa;
+  font-weight: 200;
+  position: absolute;
+  display:grid;
+  top: 124px;
+  left: 0;
+  right: 0;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 2px;
+  grid-template-columns: auto auto auto auto auto auto auto;
+  background-color: rgb(54, 73, 126);
+}
+
+.container_white{
+  position: absolute;
+  display:grid;
+  margin-top: 14px;
+  top: 185px;
+  left: 28px;
+  right: 28px;
+  grid-template-columns: 106px 106px 106px 106px 106px 106px 106px;
+  background-color: rgb(255, 255, 255);
+}
+
+/*====== Month UI =======*/
+.container_month{
+  color: rgb(33, 29, 61);
+  z-index: 1;
+  position: absolute;
+  margin-left: 15%;
+  top: -15px;
+  width: 70%;
+}
+.month{
+  font-family: Liorah BT;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 75px;
+}
+.container_year{
+  z-index: 2;
+  position: absolute;
+  margin-left: 15%;
+  top: 75px;
+  width: 70%;
+}
+.year{
+  font-family: Nunito Light;
+  color:  rgb(33, 29, 61);
+  text-shadow: 0 -4px 10px #ffffff, 0 -4px 10px #ffffff, 0 -4px 10px #ffffff, 0 -4px 10px #ffffff, 0 -4px 30px #ffffff, 0 -4px 10px #ffffff;
+  text-align: center;
+  font-size: 25px;
+  top:-8px
+}
+
+/*[ arrow ]*/
+.arrow{
+  transition: .3s ease;
+}
+.arrow:hover{
+  opacity: 50%;
+}
+.arrow:active{
+  transition: .1s ease;
+  opacity: 20%;
+}
+
+/*====== Day UI =======*/
+/*[ S M T... ]*/
+.day_head{
+  border-radius: 20px;
+  height:47px;
+  padding-top: 8px;
+  margin-right: 2px;
+  font-size: 28px;
+  color: white;
+  text-align: center;
+}
+/*[ interface for other day type ]*/
+div.day{
+  font-family: Caveat;
+  transition: .4s ease;
+  color:rgb(40, 34, 78);
+  height:5.4em;
+  font-size: 22x;
+  padding-left: 8px;
+  padding-top: 5px;
+  margin-right: 5px;
+  margin-bottom: 8px;
+  border-bottom : 3px solid rgb(208, 208, 208) ;
+  border-right : 3px solid rgb(208, 208, 208) ;
+  border-bottom-right-radius: 20px;
+  border-top-left-radius: 20px;
+  box-shadow: 0 0px 2.5px 0 rgba(68, 68, 68, 0.2);
+  overflow-x: hidden; 
+  overflow-y: scroll;
+}
+.today{
+  background-image:url(Pic/today_BG.png);
+  background-size: 86px 86px;
+  background-repeat: no-repeat;
+}
+.blankday{
+  color:rgb(40, 34, 78);
+  height:5.4em;
+  font-size: 20x;
+  padding-left: 8px;
+  padding-top: 5px;
+  margin-right: 5px;
+  margin-bottom: 8px;
+  border-bottom : 0px solid rgb(208, 208, 208) ;
+  border-bottom-right-radius: 20px;
+  border-top-left-radius: 20px;
+  box-shadow: 0 0px 2.5px 0 rgba(68, 68, 68, 0.2);
+}
+
+.day:hover{
+  transition: .05s ease;
+  border-bottom : 0px solid rgb(208, 208, 208) ;
+  border-right : 0px solid rgb(208, 208, 208) ;
+  padding-top: 8px;
+  padding-bottom: 7px;
+}
+
+/*======[ Slider ]======*/
+/*remove default style*/
+input[type="range"] {
+  -webkit-appearance: none;
+}
+input[type="range"]:focus {
+  outline: none;
+}
+/*custome*/
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(235, 231, 255); 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(97, 133, 182); 
+}

@@ -1,0 +1,99 @@
+html {zoom: 110%;}
+
+body{
+    background-image: linear-gradient(90deg,
+        #d2dcee 24%,
+        white 24%, white 76%,
+        #d2dcee 76%);
+}
+/*===============regis box ================*/
+/*[ regis ]*/
+  a:link {text-decoration: none; }
+  a:visited { color:#e1bfde; }  
+  a:hover { text-shadow: 0 0 10px #98248e;
+            color: white;
+          }
+
+/*[ fillin in ]*/
+    /*fill*/
+  input[type=password], input[type=text], select {
+    position: relative;
+    margin-left: 20px;
+    background-color:#7d8fc6;  
+    color: white;
+    font-size: 18px;
+    width: 83%;
+    padding: 15px;
+    border: none;
+    border-radius: 50px;
+    box-sizing: border-box;
+    margin-top: 5px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }  
+    /*remove black boarder64*/
+  input[type=text]:focus{
+    outline: none;
+    box-shadow: 0 0 10px #7d8fc6;
+  }
+
+ input[type=password]:focus{
+    outline: none;
+    box-shadow: 0 0 10px #7d8fc6;
+  }
+
+  input::-webkit-input-placeholder {
+    font-size: 18px;
+    color: white;
+    line-height: 1;
+  }
+    /*login btn*/
+  input[type=submit] {
+    position: relative;
+    margin-top: 13px;
+    margin-bottom: 30px;
+    margin-left: 70px ;
+    background: white;
+    color:#7d8fc6;
+    width: 48%;
+    padding: 9px 20px;
+    border:solid;
+    border-color:linear-gradient(13deg, rgba(228,200,222,1) 0%, rgba(125,143,198,1) 36%, rgba(148,166,210,1) 69%, rgba(161,215,217,1) 100%);
+    border-radius: 100px;
+    cursor: pointer;
+    font-size: 19px;
+    transition: 0.3s;
+  } 
+  input[type=submit]:hover {
+    background: rgb(232,195,224);
+    background: linear-gradient(13deg, rgba(232,195,224,1) 15%, rgba(125,143,198,1) 57%);
+    color: white;
+  }
+ 
+/*[ box ]*/
+  .container {
+    position: relative;
+    margin-top: 12.2%;
+    margin-left: 40%;
+    padding-top: 20px;
+    width: 19%;
+    border-radius: 20px;
+    background: rgb(232,195,224);
+    background: linear-gradient(13deg, #e8c3e0 15%, #7d8fc6 36%, rgba(148,166,210,1) 69%, rgba(161,215,217,1) 89%); 
+    padding: 10px;
+  }
+  .container_w  {
+    position: absolute;
+    top: 8px;
+    right: 8.9px;
+    background : white;
+    border-radius: 14.2px;
+    height: 95%;
+    width:94%;
+  }
+
+  
+
+
+
+  

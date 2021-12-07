@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OhiUii_Calendar</title>
+    <!--impor css-->
+    <link rel="stylesheet" href="Calendar_css1_Mview.css">
+    <link rel="stylesheet" href="Calendar_css2_Dview.css">
+    <link rel="stylesheet" href="Calendar_css3_Wview.css">
+</head>
+
+<body> 
+    <!--========================================================================================-->
+    <!--=============[ Calendar : month view ]==================================================-->
+    <div id="month_view" class="container_calendar1" style="display: block;">
+        <!--========[ Month head ]=========-->
+        <div class="container_month">
+           <div class="month">
+               January
+           </div>
+        </div>
+        <div class="container_year">
+            <div class="year">
+               2020
+           </div>
+        </div>
+        <!-- arrow -->
+        <div class="arrow" style="position: absolute; top: 37px; left: 24px;">
+            <img src="Pic/arrowL_b.png" style="width: 20px;">
+        </div>
+        <div class="arrow" style="position: absolute; top: 37px; right: 24px;">
+            <img src="Pic/arrowR_b.png" style="width: 20px;">
+        </div> 
+
+        <!--========[ Day head ]==========-->
+        <div class="container_blue">
+            <div class="day_head" style="cursor: pointer;">S</div>
+            <div class="day_head">M</div>
+            <div class="day_head">T</div>
+            <div class="day_head">W</div>
+            <div class="day_head">T</div>
+            <div class="day_head">F</div>
+            <div class="day_head">S</div>
+        </div>
+
+        <!--========[ Day thingy ]=========-->
+        <div class="container_white">
+            <div class="day"> S </div>
+
+            <div class="day today"> 
+                S 
+                <div class="m_appo">Ttest on bat.. </div>
+                <div class="m_appo">Eating car s.. </div>
+                <div class="m_appo">sssssssss </div>
+                <div class="m_appo">sssssssss </div>
+                <div class="m_appo">sssssssss </div>      
+                </span>
+            </div> 
+
+            <div class="day"> S </div>
+            <div class="day"> S </div>
+            <div class="day"> S </div>
+            <div class="day"> S </div>
+            <div class="day"> S </div>
+
+            <div class="day"> S 
+                
+                <div class="m_appo">Ttest on bat.. </div>
+                <div class="m_appo">Eating car s.. </div>
+                <div class="m_appo">sssssssss </div>
+                <div class="m_appo">sssssssss </div>
+                <div class="m_appo">sssssssss </div>      
+                
+            </div>
+            <div class="day"> S </div>
+            <div class="day"> S </div>
+            <div class="day"> S </div>
+            <div class="day"> S </div>
+            <div class="day"> S </div>
+            <div class="day"> S </div>
+            
+            <div class="day"> S </div>
+            <div class="day"> S </div>
+            <div class="day"> S </div>
+            <div class="day"> S </div>
+            <div class="day"> S </div>
+            <div class="day"> S </div>
+            <div class="day"> S </div>
+            <div class="day"> S </div>
+            <div class="day"> S </div>
+            <div class="day"> S </div>
+            <div class="day"> S </div>
+            <div class="day"> S </div>
+            <div class="day"> S </div>
+            <div class="day"> S </div>
+            <div class="day"> S </div>
+            <div class="day"> S </div>
+            <div class="day"> S </div>
+            <div class="day"> S </div>
+            <div class="blankday">  </div>
+            <div class="blankday">  </div>
+            <div class="blankday">  </div>
+                         
+    </div>
+    <!--=====================[ decorate ]=====================-->
+    <div id="w_decorate" class="white" style="top: -790px;"></div>
+    <div id="w_decorate" class="white" style="bottom: 32px;"></div>
+    <!--=======================[ VIEW ]=======================-->
+    <div id="month_view" class="view" onclick="hide_monthview()"> WEEK VIEW </div>
+    
+
+    <!--========================================================================================-->
+    <!--===================[ Day view ]=========================================================-->
+    <div id="day_view" class="container_date">
+        <!--========[ DM head ]=========-->
+        <!-- D-bar -->
+        <div class="d_bar">
+            <div class="show_day">
+                2
+            </div>
+        </div>
+        <!-- DM-bar -->
+        <div class="dm_bar">
+            <div class="con_show_dayNmonth"  style="left: 0; margin-left: 5px;  color: white;">
+                <div class="show_dayNmonth">
+                    02
+                </div>
+            </div>
+            <div class="con_show_dayNmonth"  style="right: 0; margin-right: 5px; color: rgb(36, 20, 88); background-color: white;">
+                <div class="show_dayNmonth">
+                    11
+                </div>
+            </div>
+        </div>    
+        <!--========[ Appoint ]=========-->  
+        <div class="a_bar">
+            <div class="con_appoint"> 
+                <div class="d_time">
+                00:00 - 00:00
+                </div>
+                <!--edit btn-->
+                <div class="edit_btn">
+                    <img src="Pic/edit.png" style="height: 15px;">  
+                </div>
+                <!------------->
+                <div class="d_title">
+                EXAM LAB COMMU
+                </div>     
+                <div class="d_detail">
+                
+                </div>
+            </div>
+
+            <div class="con_appoint"> 
+                <div class="d_time">
+                00:00 - 00:00
+                </div>
+                <div class="d_title">
+                EXAM LAB COMMU
+                </div>     
+                <div class="d_detail">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    sed do eiusmod tempor incididunt ut
+     
+                </div>
+            </div>
+
+            <div class="con_appoint"> 
+                <div class="d_time">
+                00:00 - 00:00
+                </div>
+                <div class="d_title">
+                TEST TEST
+                </div>     
+                <div class="d_detail">
+                    Lorem ipsum dolor sit amet,     
+                </div>
+            </div>
+
+            <div class="con_appoint"> 
+                <div class="d_time">
+                00:00 - 00:00
+                </div>
+                <div class="d_title">
+                ABCDEFGH
+                </div>     
+                <div class="d_detail">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    sed do eiusmod tempor incididunt ut
+     
+                </div>
+            </div>
+            
+            <div class="con_appoint"> 
+                <div class="d_time">
+                00:00 - 00:00
+                </div>
+                <div class="d_title">
+                ABCDEFGH
+                </div>     
+                <div class="d_detail">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    sed do eiusmod tempor incididunt ut
+     
+                </div>
+            </div>
+
+            <div class="con_appoint"> 
+                <div class="d_time">
+                00:00 - 00:00
+                </div>
+                <div class="d_title">
+                ABCDEFGH
+                </div>     
+                <div class="d_detail">
+                </div>
+            </div>
+        </div>
+    </div>  
+
+    <!--=========================================================================================-->
+    <!--===================[ Week view ]=========================================================-->
+    <div style="display: none;">
+    <div id="week_view" class="container_calendar2" >
+        <!--========[ M head ]=========-->
+        <div class="container_black">
+            <div class="day_heading"> S </div>
+            <div class="day_heading"> M </div>
+            <div class="day_heading"> T </div>
+            <div class="day_heading"> W </div>
+            <div class="day_heading"> T </div>
+            <div class="day_heading"> F </div>
+            <div class="day_heading"> S </div>
+        </div>
+        
+        <!-- arrow -->
+        <div class="arrow" style="position: absolute; top: -16px; left: 20px;">
+            <img src="Pic/arrowL_w.png" style="width: 16px;">
+        </div>
+        <div class="arrow" style="position: absolute; top: -16px; right: 20px;">
+            <img src="Pic/arrowR_W.png" style="width: 17px;">
+        </div>
+
+        <!--|||||||||||||||||||||||||||||||-->
+        <!-- W box -->
+        <div class="container_Wweek">
+        <!--========[ day : ALL ]=========-->
+            <div class="ALL_bar ALL_notoday">   
+                <div class="container_ALL">
+                    TITLE <br>
+                    meet group member at morning to talk how we will arrange the presentatopn
+
+                </div>
+                <div class="container_ALL">
+                    TITLE
+                </div>
+                <div class="container_ALL">
+                    TITLE
+                </div>
+                <div class="container_ALL">
+                    TITLE
+                </div>
+                <div class="container_ALL">
+                    TITLE
+                </div>
+                <div class="container_ALL">
+                    TITLE
+                </div>
+                <div class="container_ALL">
+                    TITLE
+                </div>
+
+            </div>    
+            <div class="ALL_bar ALL_notoday">  </div> 
+            <div class="ALL_bar ALL_notoday">  </div> 
+            <div class="ALL_bar ALL_notoday">  </div> 
+            <div class="ALL_bar ALL_notoday">  </div> 
+            <div class="ALL_bar ALL_notoday">  </div> 
+            <div class="ALL_bar ALL_today">  </div> 
+            
+        <!--========[ day : ECT ]=========-->
+            <div class="ECT_bar ECT_notoday">   
+                <div class="container_ECT">
+                    TITLE 
+                    <br>
+                    99:00:00 - 77:74:77 <br>
+                    meet group member at morning to talk how we will arrange the presentatopn
+                </div>  
+                <div class="container_ECT ">
+                    TITLE 
+                    <br>
+                    00:00:00 - 00:00:00
+                </div>
+                <div class="container_ECT">
+                    TITLE 
+                    <br>
+                    00:00 - 00:00
+                </div>
+                <div class="container_ECT">
+                    TITLE 
+                    <br>
+                    00:00 - 00:00
+                </div>
+                <div class="container_ECT">
+                    TITLE 
+                    <br>
+                    00:00 - 00:00
+                </div>
+                <div class="container_ECT">
+                    TITLE 
+                    <br>
+                    00:00 - 00:00
+                </div>
+                <div class="container_ECT">
+                    TITLE 
+                    <br>
+                    00:00 - 00:00
+                </div>
+                <div class="container_ECT">
+                    TITLE 
+                    <br>
+                    00:00 - 00:00
+                </div>
+                <div class="container_ECT">
+                    TITLE 
+                    <br>
+                    00:00 - 00:00
+                </div>
+                <div class="container_ECT">
+                    TITLE 
+                    <br>
+                    00:00 - 00:00
+                </div>
+                <div class="container_ECT">
+                    TITLE 
+                    <br>
+                    00:00 - 00:00
+                </div>
+                <div class="container_ECT">
+                    TITLE 
+                    <br>
+                    00:00 - 00:00
+                </div>   
+            </div>  
+            <div class="ECT_bar ECT_notoday">   </div>  
+            <div class="ECT_bar ECT_notoday">   </div>
+            <div class="ECT_bar ECT_notoday">   </div>
+            <div class="ECT_bar ECT_notoday">   
+                <div class="container_ECT">
+                    TITLE 
+                    <br>
+                    00:00 - 00:00
+                </div>  
+            </div>
+            <div class="ECT_bar ECT_notoday">   </div>
+            <div class="ECT_bar ECT_today">   </div>
+
+        <!--========[ show date ]=========-->
+            <div class="show_bottomDate"> 02 </br> september, 2020 </div>
+            <div class="show_bottomDate"> 02 </br> september, 2020 </div>
+            <div class="show_bottomDate"> 02 <br> september, 2020  </div>
+            <div class="show_bottomDate"> 02 <br> september, 2020  </div>
+            <div class="show_bottomDate"> 02 <br> september, 2020  </div>
+            <div class="show_bottomDate"> <div class="W_today"> 02 </div> september, 2020  </div>
+            <div class="show_bottomDate"> 02 <br> september, 2020  </div>
+        </div>
+        <!--|||||||||||||||||||||||||||||||-->
+        
+    </div>
+    <!--=======================[ TAB ]=======================-->
+    <div id="Wview_tab" class="view2" style="display: block;"> MONTH VIEW </div>
+    <div id="Wallday_tab" class="allday_tab" style="display: block;"> ALL DAY </div>
+    </div>
+    
+    
+    <!--========================================================================================-->
+    <!--========================================================================================-->
+    <!--========================================================================================-->
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,99 @@
+
+button, select{
+    border: none;
+}
+
+button:focus {
+    outline: none;
+}
+
+/*input : text, date, time*/
+input[type=text],input[type=date],input[type=time], select {
+    background-color:#ffffff;  
+    color: rgb(42, 42, 42);
+    font-size: 18px;
+    width: 370px;
+    height: 35px;
+    padding: 15px;
+    margin-bottom: 2px;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0 0 0 #ffffff;
+    box-sizing: border-box;
+    resize: vertical;
+    transition: 0.5s;
+}
+
+input[type=text]:focus {
+    outline: none;
+    border-color: #ffffff;
+    box-shadow: 0 0 10px #ffffff;
+}
+input[type=date]:focus {
+    outline: none;
+    border-color: #ffffff;
+    box-shadow: 0 0 10px #ffffff;
+}
+input[type=time]:focus {
+    outline: none;
+    border-color: #ffffff;
+    box-shadow: 0 0 10px #ffffff;
+}
+
+input::-webkit-input-placeholder {
+    font-size: 18px;
+    color: rgb(155, 184, 219);
+    line-height: 1;
+}
+
+/*input : submit (btn)*/
+input[type=submit] {
+    position: relative;
+    background:   rgb(86, 162, 255);
+    color:#ffffff;
+    width: 407px;
+    padding: 5px 20px;
+    border:solid;
+    border-color:  rgb(86, 162, 255);
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 19px;
+    transition: 0.3s;
+} 
+
+input[type=submit]:hover {
+    background:   rgb(183, 224, 229);
+    border-color:  rgb(183, 224, 229);
+    color: white;
+    text-shadow: 0 0 5px white;
+}
+
+/*===========================[ modal box ]===========================*/
+.modal_overlay{
+    position: fixed;
+    z-index: 3;
+    height: 1000px;
+    left: 0;
+    right: 0;
+    top: 0;
+    background: rgb(116, 92, 125);
+    background: linear-gradient(17deg, rgba(202,157,220,1) 15%, rgba(157,186,220,1) 49%, rgba(184,226,229,1) 98%);
+    opacity: 0.8;
+}
+
+.modal_box{
+    z-index: 4;
+    position: fixed;
+    top: 22%;
+    left: 38%;
+    height: 250px;
+    width: 450px;
+    opacity: 1;
+    font-family: monospace;
+    font-size: 18px;
+    color:rgb(255, 255, 255);
+}
+
+.modal_item{
+    padding-top: 10px;
+}

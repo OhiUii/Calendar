@@ -1,0 +1,215 @@
+@font-face {font-family: "inglobal"; src: url("//db.onlinewebfonts.com/t/72b7343abe5be01c2f26ea22583b6e0f.eot"); src: url("//db.onlinewebfonts.com/t/72b7343abe5be01c2f26ea22583b6e0f.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/72b7343abe5be01c2f26ea22583b6e0f.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/72b7343abe5be01c2f26ea22583b6e0f.woff") format("woff"), url("//db.onlinewebfonts.com/t/72b7343abe5be01c2f26ea22583b6e0f.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/72b7343abe5be01c2f26ea22583b6e0f.svg#inglobal") format("svg"); }
+@font-face {font-family: "Liorah BT"; src: url("//db.onlinewebfonts.com/t/70d9cdb6be0e9796bcbeda9ecbaeaf97.eot"); src: url("//db.onlinewebfonts.com/t/70d9cdb6be0e9796bcbeda9ecbaeaf97.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/70d9cdb6be0e9796bcbeda9ecbaeaf97.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/70d9cdb6be0e9796bcbeda9ecbaeaf97.woff") format("woff"), url("//db.onlinewebfonts.com/t/70d9cdb6be0e9796bcbeda9ecbaeaf97.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/70d9cdb6be0e9796bcbeda9ecbaeaf97.svg#Liorah BT") format("svg"); }
+@font-face {font-family: "ITC Edwardian Script"; src: url("//db.onlinewebfonts.com/t/2be69b086861672e6a0ed050ffdd4fe7.eot"); src: url("//db.onlinewebfonts.com/t/2be69b086861672e6a0ed050ffdd4fe7.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/2be69b086861672e6a0ed050ffdd4fe7.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/2be69b086861672e6a0ed050ffdd4fe7.woff") format("woff"), url("//db.onlinewebfonts.com/t/2be69b086861672e6a0ed050ffdd4fe7.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/2be69b086861672e6a0ed050ffdd4fe7.svg#ITC Edwardian Script") format("svg"); }
+@font-face {font-family: "Comfortaa"; src: url("//db.onlinewebfonts.com/t/26b602359fb600f19b7b453635be3b46.eot"); src: url("//db.onlinewebfonts.com/t/26b602359fb600f19b7b453635be3b46.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/26b602359fb600f19b7b453635be3b46.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/26b602359fb600f19b7b453635be3b46.woff") format("woff"), url("//db.onlinewebfonts.com/t/26b602359fb600f19b7b453635be3b46.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/26b602359fb600f19b7b453635be3b46.svg#Comfortaa") format("svg"); }
+@font-face {font-family: "Nunito Light"; src: url("//db.onlinewebfonts.com/t/f520e19281e4912539d5cf95df29e683.eot"); src: url("//db.onlinewebfonts.com/t/f520e19281e4912539d5cf95df29e683.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/f520e19281e4912539d5cf95df29e683.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/f520e19281e4912539d5cf95df29e683.woff") format("woff"), url("//db.onlinewebfonts.com/t/f520e19281e4912539d5cf95df29e683.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/f520e19281e4912539d5cf95df29e683.svg#Nunito Light") format("svg"); }
+@font-face {font-family: "Caveat"; src: url("//db.onlinewebfonts.com/t/cbd1738698b8498615f41a8ec4900172.eot"); src: url("//db.onlinewebfonts.com/t/cbd1738698b8498615f41a8ec4900172.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/cbd1738698b8498615f41a8ec4900172.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/cbd1738698b8498615f41a8ec4900172.woff") format("woff"), url("//db.onlinewebfonts.com/t/cbd1738698b8498615f41a8ec4900172.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/cbd1738698b8498615f41a8ec4900172.svg#Caveat") format("svg"); }
+/*ITC Edwardian Script Comfortaa Caveat Nunito Light*/
+body{
+  background-image: url("Pic/BG1.png");
+  background-size: 620px ;
+  background-repeat: no-repeat;
+  background-color: #ffffff;
+  height:700px;  
+
+  /* Center and scale the image nicely */
+  background-repeat: no-repeat;
+
+}
+
+/*--------------[ view_tab ]*/
+.view2{
+  font-family: Caveat;
+  position: fixed;
+  top: 150px;
+  left: 1214.5px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  padding-left: 23px;
+  border-top-left-radius: 34px;
+  border-top-right-radius: 34px;
+  background: rgb(54, 73, 126);
+  color: white;
+  z-index: 2;
+  width: 180px;
+  height: 35px;
+  transform: rotate(90deg);
+  font-size: 24px;
+}
+.view2:hover{
+  text-shadow: 0 0 14px #ccdbeb;
+}
+
+.allday_tab{
+  font-family: Caveat;
+  position: fixed;
+  top: 122px;
+  left: 148px;
+  padding-bottom: 2px;
+  padding-top: 2px;
+  padding-left: 14px;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  background:  rgb(126, 148, 206);
+  color: white;
+  z-index: 2;
+  width: 119px;
+  height: 28px;
+  font-size: 18px;
+}
+
+/*=============== Calendar : week ================*/
+/*[ Calendar ]*/
+.container_calendar2{
+  z-index: 2;
+  position: fixed;
+  width: 1048px;
+  height: 560px;
+  top: 90px;
+  left:238px;
+  background: rgb(248, 245, 245);
+  box-shadow: 5px 0 30px 0 rgba(0, 0, 0, 0.2), -5px 0 30px 0 rgba(79, 79, 79, 0.19);
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+/*====== Day title =======*/
+.container_black{
+  position: absolute;
+  display: grid;
+  top: -25px;
+  left: 8px;
+  right: 8px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 5px;
+  padding-top: 8px;
+  grid-template-columns: auto auto auto auto auto auto auto;
+  background-color: rgb(39, 43, 54);
+  color: white;
+  border-radius: 50px;
+  font-size: 40px;
+}
+
+/*[ S M T... ]*/
+.day_heading{
+  font-family: Comfortaa;
+  font-weight: 200;
+  font-size: 25.5px;
+  color: white;
+  text-align: center;
+}
+
+.container_Wweek{
+  position: absolute;
+  display: grid;
+  top: 20px;
+  bottom: 15px;
+  left: 8px;
+  right: 8px;
+  padding-left: 20px;
+  padding-right: 5px;
+  grid-template-columns: 144px 144px 144px 144px 144px 144px 144px;
+}
+
+/*====== day bar =======*/
+/*[ Allday-event ]*/
+div.ALL_bar{
+  font-family: Nunito Light;
+  font-size: 12px;
+  height:6em;
+  padding-left: 8px;
+  padding-top: 5px;
+  margin-right: 15px;
+  margin-bottom: 8px;
+  border-bottom-left-radius: 18px;
+  border-bottom-right-radius: 18px;
+  color: white;
+  overflow-x: hidden; 
+  overflow-y: scroll;
+}
+
+.ALL_bar:hover{
+  box-shadow: 0 0 15px rgb(126, 148, 206);
+}
+
+.container_ALL{
+  background-color: rgb(62, 62, 62);
+  opacity: 0.7;
+  border-radius: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 2px;
+  margin-bottom: 5px;
+  margin-right: 8px;
+  width: 115px;
+}
+
+/*[ ECTday-event ]*/
+div.ECT_bar{
+  font-family: Nunito Light;
+  font-size: 12px;
+  height:32em;
+  padding-top: 8px;
+  padding-left: 8px;
+  padding-right: 8px;
+  margin-right: 15px;
+  margin-top: 4px;
+  margin-bottom: 8px;
+  border-top-left-radius: 18px;
+  border-top-right-radius: 18px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  overflow-x: hidden; 
+  overflow-y: scroll;
+}
+
+.ECT_bar:hover{
+  box-shadow: 0 0 15px rgb(210, 220, 238);
+}
+
+.container_ECT{
+  background-color: rgb(255, 255, 255);
+  opacity: 0.8;
+  border-radius: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 2px;
+  padding-right: 2px;
+  margin-bottom: 5px;
+  width: 115px;
+}
+
+.show_bottomDate{
+  font-family: Nunito Light;
+  text-align: center;
+  padding-top: 2px;
+  color: rgb(126, 174, 209);
+}
+
+.ALL_today{
+  background-color: rgb(148, 107, 178);
+}
+
+.ECT_today{
+  background-color:  rgb(193, 153, 194);
+}
+
+.ALL_notoday{
+  background-color: rgb(126, 148, 206);
+}
+
+.ECT_notoday{
+  background-color: rgb(210, 220, 238);
+}
+
+.W_today{
+  background-color: rgb(126, 148, 206);
+  color: white;
+  border-radius: 100px;
+  width: 23px;
+  height: 23px;
+  margin-left: 60px;
+}
+
